@@ -23,7 +23,7 @@ int main() {
 
     printf("\nMovimento da Torre:\n");
     for (i = 1; i <=5; i++){
-        printf("Direita: %d casa\n", i);
+        printf("Direita\n");
 
     };
 
@@ -32,7 +32,7 @@ int main() {
     printf("\nMovimento do Bispo \n");
     i = 1;
     while(i <= 5){
-        printf("Cima, Direita: %d casa \n", i);
+        printf("Cima, Direita\n");
         i++;
     }
 
@@ -42,10 +42,27 @@ int main() {
     printf("\nMovimento da Rainha\n");
     i = 1;
     do{
-        printf("Esquerda: %d casa\n", i);
+        printf("Esquerda\n");
         i++;
 
     }while (i <= 8);
+
+    //Movimento do cavalo
+
+    printf("\nMovimento do Cavalo\n");
+    for(i = 1; i <= 1; i++){
+
+        int passo = 1;
+        
+        do{
+            printf("Baixo\n");
+            passo++;
+
+        } while(passo <= 2);
+
+    printf("Esquerda\n");
+    }
+
 
 
 
